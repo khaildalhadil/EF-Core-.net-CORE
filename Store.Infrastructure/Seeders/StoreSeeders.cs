@@ -1,7 +1,7 @@
 ﻿
 
 using Store.Domain.Entities;
-using Stores.Infrastructure;
+
 
 namespace Store.Infrastructure.Seeders;
 

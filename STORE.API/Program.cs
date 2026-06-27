@@ -1,3 +1,4 @@
+using Store.Application.Extension;
 using Store.Infrastructure.Extensions;
 using Store.Infrastructure.Seeders;
 
@@ -5,6 +6,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 
 builder.Services.AddInfrastructureServices(builder.Configuration);
+builder.Services.AddApplicationServices();
 
 // Add services to the container.
 

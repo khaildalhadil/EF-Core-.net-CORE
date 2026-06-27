@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Store.Domain.Entities;
 
-namespace Stores.Infrastructure;
+namespace Store.Infrastructure;
 
 internal class StoreDbContext(DbContextOptions<StoreDbContext> options): DbContext(options)
 {
